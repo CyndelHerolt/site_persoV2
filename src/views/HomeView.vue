@@ -6,7 +6,7 @@ const showDialog = ref(false);
 const dialogContent = ref('');
 const typedTarget = ref(null);
 let typed = null;
-let intervalId = null; // New variable
+let intervalId = null;
 
 const handleClick = (content) => {
   dialogContent.value = content;
