@@ -130,7 +130,7 @@ const closeModal = () => {
         </p>
       </div>
       <div class="modal-footer">
-        <button @click="closeModal">Close</button>
+        <button @click="closeModal">Quitter</button>
       </div>
     </div>
 

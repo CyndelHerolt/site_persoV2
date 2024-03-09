@@ -69,7 +69,7 @@
 
         nav {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
             font-size: .7rem;
 
@@ -94,8 +94,11 @@
         padding: 1rem 2rem;
         background-color: var(--color-background);
         border-top: solid 1px var(--color-border);
-        font-size: .5rem;
         text-align: center;
+
+        p {
+            font-size: .5rem;
+        }
     }
 
     a {
@@ -185,5 +188,59 @@
         font-size: .7rem;
         line-height: 1.5rem;
         margin: 1rem;
+    }
+
+
+    .cv {
+        width: 50vw;
+        height: 70vh;
+
+        .onglets {
+            display: flex;
+            justify-content: start;
+            font-size: .7rem;
+
+            a {
+                color: var(--color-text);
+                text-decoration: none;
+                border-top: solid 3px var(--color-border);
+                border-left: solid 3px var(--color-border);
+                border-right: solid 3px var(--color-border);
+                padding: 1rem;
+                transition: color 0.5s;
+                margin: 0 1rem;
+
+                &:hover {
+                    color: var(--color-link);
+                }
+            }
+        }
+
+        .cv-content {
+            padding: 1rem 2rem;
+            border: dashed 3px var(--color-border);
+            background-color: var(--color-background-mute);
+            overflow: auto;
+            max-height: 60vh;
+
+            small {
+                font-size: .5rem;
+                opacity: .7;
+            }
+
+            h5 {
+                color: var(--color-link);
+            }
+
+            ul {
+                font-size: .6rem;
+                margin: 10px 0;
+
+                li {
+                    padding: 5px;
+                }
+            }
+        }
+    ;
     }
 }

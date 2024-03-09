@@ -6,9 +6,9 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
       <nav>
         <RouterLink to="/">Accueil</RouterLink>
-        <RouterLink to="/about">CV</RouterLink>
-        <RouterLink to="/about">Projets</RouterLink>
-        <RouterLink to="/about">Contact</RouterLink>
+        <RouterLink to="/cv">CV</RouterLink>
+        <RouterLink to="/cv">Projets</RouterLink>
+        <RouterLink to="/cv">Contact</RouterLink>
       </nav>
   </header>
 
@@ -20,5 +20,4 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
-
 </style>
