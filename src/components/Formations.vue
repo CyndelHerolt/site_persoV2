@@ -1,8 +1,7 @@
 <template>
-  <div class="formations">
     <div>
       <small>2021 - 2024</small>
-      <h5>Bachelor Universitaire de Technologie <br> Métiers du Multimédia et de l'Internet <br> Développement web et dispositifs interactifss</h5>
+      <h5>Bachelor Universitaire de Technologie <br> Métiers du Multimédia et de l'Internet <br> Développement web et dispositifs interactifs</h5>
       <p>IUT de Troyes</p>
       <ul>
         <li>Volontaire au dispositif des cordées de la réussite (2021 - 2024)</li>
@@ -40,7 +39,6 @@
       <h5>Brevet d'études professionnelles <br> Métiers de la Vente et de la Relation Client</h5>
       <p>Lycée Professionnel Gabriel Voisin - Troyes</p>
     </div>
-  </div>
 </template>
 <script setup>
 </script>
