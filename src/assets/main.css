@@ -113,6 +113,11 @@
 
         &.active-link {
             color: var(--color-link);
+
+            &:before {
+                content: ">";
+                margin-right: 10px;
+            }
         }
     }
 
@@ -227,6 +232,11 @@
 
                 &.active-link {
                     color: var(--color-link);
+
+                    &:before {
+                        content: ">";
+                        margin-right: 10px;
+                    }
                 }
 
                 img {
