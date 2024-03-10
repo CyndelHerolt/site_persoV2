@@ -150,6 +150,7 @@
             cursor: pointer;
         }
     }
+
     .exclamation {
         position: absolute;
         top: 21vh;
@@ -301,6 +302,7 @@
                     }
                 }
             }
+
             .soft-skill {
                 background-color: var(--color-background);
                 border: solid 3px var(--color-border);
@@ -326,14 +328,6 @@
         flex-direction: row;
         justify-content: space-between;
         width: 50vw;
-        /*height: 70vh;*/
-
-        span {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            align-items: flex-end;
-        }
 
         div {
             display: flex;
@@ -346,5 +340,31 @@
                 margin: .5rem 0;
             }
         }
+    }
+    .project-btn {
+        background-color: var(--color-heading);
+        border: none;
+        padding: .5rem 1rem;
+        cursor: pointer;
+        position: absolute;
+        bottom: 36vh;
+        margin: 0 auto;
+        font-size: .7rem;
+
+        &:hover {
+            background-color: var(--color-link);
+        }
+    }
+
+    .project-details {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+        padding: 2rem;
+        z-index: 2;
+        border: dashed 3px var(--color-border);
+        background-color: var(--color-background-soft);
     }
 }
