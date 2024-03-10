@@ -5,6 +5,7 @@
 
       <div class="back-end">
         <h6>Back-end</h6>
+        <img src="/images/heart.png" alt="" width="20px"><img src="/images/heart.png" alt="" width="20px"><img src="/images/heart.png" alt="" width="20px">
         <ul>
           <li>Symfony</li>
           <li>Node.js</li>
@@ -15,6 +16,7 @@
       </div>
       <div class="front-end">
         <h6>Front-end</h6>
+        <img src="/images/heart.png" alt="" width="20px"><img src="/images/heart.png" alt="" width="20px">
         <ul>
           <li>Vue.js</li>
           <li>Stimulus</li>
@@ -26,6 +28,7 @@
       </div>
       <div class="reseau">
         <h6>Hébergement et réseau</h6>
+        <img src="/images/heart.png" alt="" width="20px">
         <ul>
           <li>Linux - Ubuntu</li>
           <li>Apache</li>
@@ -37,6 +40,7 @@
       </div>
       <div class="other">
         <h6>Autres</h6>
+        <img src="/images/heart.png" alt="" width="20px"><img src="/images/half-heart.png" alt="" width="20px">
         <ul>
           <li>Git</li>
           <li>C#</li>

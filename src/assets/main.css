@@ -320,4 +320,31 @@
             }
         }
     }
+
+    .projets {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 50vw;
+        /*height: 70vh;*/
+
+        span {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            cursor: pointer;
+
+            img {
+                margin: .5rem 0;
+            }
+        }
+    }
 }
